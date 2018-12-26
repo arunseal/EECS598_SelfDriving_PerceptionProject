@@ -1,6 +1,6 @@
-deploy.gz
-ohio.ppk
-self_driving_2.pem
-/model/deploy/
-/model/weights/
-ROB535_AWS_Setup
+/team10_self_driving
+/__pycache__
+/.vscode
+/Logs
+/csv
+/saved_model

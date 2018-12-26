@@ -1,26 +1,28 @@
-# EECS598_SelfDriving_PerceptionProject
+Self-Driving Cars Perception Project Task-1
 
-To generate a csv file with training and validation data with pathnames suitable 
-to the OS/system that you're using, just run 'modify_csv.py' 
-before you start training. 
-Make sure you save /deploy , labels.csv in the /model folder.
+branch: arunava
 
-AlexNet:
-To finetune Alexnet do:
-python finetuning_alexnet.py
+1. AlexNet:
 
-To test the trained model on testing data:
-python inference.py
+	To Train the dataset using Alexnet do:
 
-Alexnet has been implemented in alexnet.py
-The script can be used to modify any specifications
+	python Train_Alexnet.py
 
-VGG-16:
-To Train the dataset using VGG-16 do:
-python finetuning_vgg.py
+	To test the trained model on testing data:
 
-To test the trained model on testing data:
-python inference.py
+	python Test.py
 
-VGG-16 has been implemented in vgg_16.py
-The script can be used to modify any specifications
+2. VGG-19:
+
+	To Train the dataset using VGG-19 do:
+
+	python VGG_19.py
+	
+ 	To test the trained model on testing data:
+
+	python Test_all.py
+
+
+3. All file paths, csv locations and model configurations(output classes, learning rate, batch_size) are stored in Config.py. You should edit that if you want to change any configurations.
+
+4. Train_Resnet and All_Networks.py need bug fixes.
